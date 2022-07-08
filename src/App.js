@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import HookCounterUseEffect from './components/HookCounterUseEffect';
 
 function App() {
   return (
     <div className="App">
-        Hooks
+        <HookCounterUseEffect></HookCounterUseEffect>
     </div>
   );
 }
