@@ -1,6 +1,7 @@
 import { createContext } from 'react';
 import './App.css';
 import { ComponentB } from './components/ComponentB';
+import { CounterReducer } from './components/CounterReducer';
 import DataFetching from './components/DataFetching';
 import HookCounterUseEffect from './components/HookCounterUseEffect';
 import HookMouse from './components/HookMouse';
@@ -18,6 +19,7 @@ function App() {
         <ExampleContext.Provider value={'Karol'}>
           <ComponentB/>
         </ExampleContext.Provider>
+        <CounterReducer/>
     </div>
   );
 }
