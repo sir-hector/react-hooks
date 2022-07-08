@@ -6,7 +6,6 @@ function HookMouse() {
     const [y, setY] = useState(0)
 
     const logMousePosition = (e) => {
-        console.log(e.clientX)
         setX(e.clientX)
         setY(e.clientY)
     }
